@@ -50,7 +50,7 @@ An example of what a class should look like:
             "throws": ["IOException"], // Defaults to nothing
             "contents": [ // Defaults to an empty method
                 "this.myVariable = \"Goodbye!\";", // Semicolon is optional
-                "return this.myVariable" // Defaults to null, if the method returns void, default to nothing
+                "return this.myVariable"
             ]
         }
     }

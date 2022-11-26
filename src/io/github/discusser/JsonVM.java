@@ -122,12 +122,12 @@ public class JsonVM {
      *             "modifiers": [], // see fields->myVariable->modifiers
      *             "returnType": "String", // Defaults to void
      *             "args": {
-     *                 // args go here, see fields->myVariable, note that any illegal syntax will be shown in logs.
+     *                 // args go here, see fields->myVariable
      *             },
      *             "throws": ["IOException"], // Defaults to nothing
      *             "contents": [ // Defaults to an empty method
      *                 "this.myVariable = \"Goodbye!\";", // Semicolon is optional
-     *                 "this.myVariable" // Defaults to null, if the method returns void, default to nothing
+     *                 "this.myVariable"
      *             ]
      *         }
      *     }
