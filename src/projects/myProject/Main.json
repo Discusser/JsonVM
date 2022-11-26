@@ -16,9 +16,6 @@
   },
   "methods": {
     "myObjectAsString": {
-      "annotations": {
-
-      },
       "returnType": "String",
       "args": {
         "doFoo": {
