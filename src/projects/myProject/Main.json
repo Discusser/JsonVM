@@ -1,0 +1,36 @@
+{
+  "class": {
+    "type": "class",
+    "imports": ["java.io.IOException"]
+  },
+  "fields": {
+    "myVariable": {
+      "modifiers": ["public", "static"],
+      "type": "String",
+      "value": "\"Hello World!\""
+    },
+    "FLAG": {
+      "type": "boolean",
+      "value": "false"
+    }
+  },
+  "methods": {
+    "myObjectAsString": {
+      "annotations": {
+
+      },
+      "returnType": "String",
+      "args": {
+        "doFoo": {
+          "type": "boolean"
+        }
+      },
+      "throws": ["IOException", "NullPointerException"],
+      "contents": [
+        "myVariable = \"Goodbye!\"",
+        "if (myVariable.hashCode() >= 10) myVariable = \"too big\"",
+        "return FLAG & doFoo ? myVariable : \"Hello once again!\""
+      ]
+    }
+  }
+}
